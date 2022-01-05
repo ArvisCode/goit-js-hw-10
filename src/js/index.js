@@ -12,7 +12,6 @@ const refs = {
   countryList: document.querySelector('ul.country-list'),
   countryInfo: document.querySelector('div.country-info'),
 };
-console.log(refs);
 refs.searchBox.addEventListener('input', debounce(inputCountry, DEBOUNCE_DELAY));
 
 function inputCountry() {
